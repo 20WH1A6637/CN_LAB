@@ -1,8 +1,8 @@
 data = input()
 p = input()
 d = data + "".join(["0"] * (len(p) - 1))
-s = d[: 5]
-i = 5
+s = d[: len(p)]
+i = len(p)
 while i <= len(d):
     xor = int(s, 2) ^ int(p, 2)
     rem = "{0:b}".format(xor)
