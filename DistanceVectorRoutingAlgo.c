@@ -27,9 +27,9 @@ int main(){
 					        rt[i].from[j] = k;
 					        count++;
 				        }
-                    }
-                }
-            }
+				    }
+				}
+			    }
 		}
         while(count != 0);
 		for(i = 0; i < n; i++){
