@@ -40,3 +40,58 @@ int main(){
 		}	
 	printf("\n\n");
 }
+
+/*
+OUTPUT:
+
+Enter the number of nodes : 5
+
+Enter the cost matrix :
+0 2 3 0 0
+2 0 15 2 0
+3 15 0 0 13
+0 2 0 0 9
+0 0 13 9 0
+
+
+State value for router 1 is 
+	
+node 1 via 1 Distance0	
+node 2 via 5 Distance0	
+node 3 via 4 Distance0	
+node 4 via 4 Distance0	
+node 5 via 5 Distance0
+
+State value for router 2 is 
+	
+node 1 via 5 Distance0	
+node 2 via 2 Distance0	
+node 3 via 1 Distance0	
+node 4 via 5 Distance0	
+node 5 via 5 Distance0
+
+State value for router 3 is 
+	
+node 1 via 4 Distance0	
+node 2 via 1 Distance0	
+node 3 via 3 Distance0	
+node 4 via 4 Distance0	
+node 5 via 1 Distance0
+
+State value for router 4 is 
+	
+node 1 via 1 Distance0	
+node 2 via 1 Distance0	
+node 3 via 3 Distance0	
+node 4 via 4 Distance0	
+node 5 via 1 Distance0
+
+State value for router 5 is 
+	
+node 1 via 1 Distance0	
+node 2 via 2 Distance0	
+node 3 via 1 Distance0	
+node 4 via 1 Distance0	
+node 5 via 5 Distance0
+
+*/
