@@ -54,3 +54,19 @@ int main(){
     }
     dijkstraAlgo(graph, 0);
 }
+
+/*
+OUTPUT:
+Enter the Adjacency matrix: 
+0 4 8 0 0
+4 0 2 5 0
+8 2 0 5 9
+0 5 5 0 4
+0 0 9 4 0
+Vertex 		 Distance from Source
+0 				 0
+1 				 4
+2 				 6
+3 				 9
+4 				 13
+*/
